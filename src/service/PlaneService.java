@@ -1,5 +1,4 @@
 package service;
-
 import model.Plane;
 
 import java.util.Scanner;
@@ -58,14 +57,13 @@ public class PlaneService {
     public String task4(Plane p1, Plane p2) {
         if (p1.getWingspan() > p2.getWingspan()) {
             return p1.getModel();
-        } else
-            return p2.getModel();
+        } else return p2.getModel();
     }
 
     public String task5(Plane p1, Plane p2, Plane p3) {
-        if (p1.getSeats() < p2.getSeats() && p1.getSeats() < p3.getSeats()) {
+        if (p1.getSeats() <= p2.getSeats() && p1.getSeats() <= p3.getSeats()) {
             return p1.getCountry();
-        } else if (p2.getSeats() < p1.getSeats() && p2.getSeats() < p3.getSeats()) {
+        } else if (p2.getSeats() <= p1.getSeats() && p2.getSeats() <= p3.getSeats()) {
             return p2.getCountry();
         } else {
             return p3.getCountry();
@@ -107,9 +105,24 @@ public class PlaneService {
             if (planes[i].getCost() < minCost.getCost() && planes[i].isMilitary()) {
                 minCost = planes[i];
             }
-        }return minCost;
+        }
+        return minCost;
+    }
+
+    public void task10(Plane[] planes) {
+        for (int i = 0; i < planes.length; i++) {
+            for (int j = i + 1; j < planes.length; j++) {
+                if (planes[i].getYear() > planes[j].getYear()) {
+                    Plane temp = planes[j];
+                    planes[j] = planes[i];
+                    planes[i] = temp;
+                }
+            }
+            planes[i].print();
+        }
     }
 }
+
 
 
 
