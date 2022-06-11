@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1ee4a47-b1a7-49df-a4e0-9bca240a22ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e1ee4a47-b1a7-49df-a4e0-9bca240a22ba" name="Changes" comment="Commit">
       <change beforePath="$PROJECT_DIR$/src/service/PlaneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/PlaneService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +58,14 @@
       <option name="presentableId" value="Default" />
       <updated>1654790317566</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit">
+      <created>1654931365038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654931365038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -71,5 +78,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
   </component>
 </project>

@@ -127,6 +127,22 @@ public class PlaneService {
             planes[i].print();
         }
     }
+
+    public void task100(Plane[]planes){
+        Plane temp = null;
+        for (int i = 0; i < planes.length; i++) {
+            for (int j = 0; j < planes.length - 1; j++) {
+                if(planes[j-1].getYear()<planes[j].getYear()){
+                    temp = planes[j-1];
+                    planes[j-1] = planes[j];
+                    planes[j] = temp;
+                }
+            }
+            for (Plane x: planes) {
+                System.out.println(x);
+            }
+        }
+    }
 }
 
 
