@@ -100,11 +100,17 @@ public class PlaneService {
 
     public Plane task9(Plane[] planes) {
         Plane minCost = null;
-        for (int i = 0; i < planes.length; i++) {
-            minCost = planes[i];
-            if (planes[i].getCost() < minCost.getCost() && planes[i].isMilitary()) {
-                minCost = planes[i];
+        for (Plane plane : planes) {
+            if (minCost == null) {
+                if (plane.isMilitary()) {
+                    minCost = plane;
+                }
+            } else if (plane.isMilitary() && plane.getCost() < minCost.getCost()) {
+                minCost = plane;
             }
+        }
+        if(minCost == null){
+            System.out.println("Not Plane");
         }
         return minCost;
     }
