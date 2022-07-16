@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1ee4a47-b1a7-49df-a4e0-9bca240a22ba" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/exception/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +37,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Student/Desktop/Misak&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.collection.Main">
     <configuration name="AirportTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AirportTest" />
       <module name="Airport" />
@@ -58,12 +58,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="collection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.Main" />
+      <module name="Airport" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.collection.Main" />
       <item itemvalue="Application.AirportTest" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.collection.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AirportTest" />
       </list>
@@ -92,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654931922275</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit">
+      <created>1657353810444</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657353810444</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
