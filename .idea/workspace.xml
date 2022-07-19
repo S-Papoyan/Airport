@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1ee4a47-b1a7-49df-a4e0-9bca240a22ba" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/Text.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newProject/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newProject/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newProject/service/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/newProject/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newProject/util/NameComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AirportTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/AirportTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/collection/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exception/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/exception/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Plane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/model/Plane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/PlaneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/old/service/PlaneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newProject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newProject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newProject/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newProject/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/newProject/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/newProject/service/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657961838357</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit">
+      <created>1658249115088</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658249115088</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

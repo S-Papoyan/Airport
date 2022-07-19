@@ -5,3 +5,4 @@ Karen-73
 Edgar-79
 Sergey-82
 Georgi-71
+,88 Edgar,79 Georgi,71 Gor,74 Karen,73 Sergey,82 Sokrat,68

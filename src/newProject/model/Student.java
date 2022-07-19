@@ -1,6 +1,6 @@
 package newProject.model;
 
-public class Student {
+public class Student implements Comparable<Student> {
 
     private String name;
     private int mark;
@@ -15,11 +15,24 @@ public class Student {
     public String toString() {
         return name + "," + mark;
     }
+
     public String getName() {
         return name;
     }
+
     public int getMark() {
         return mark;
     }
 
+    @Override
+    public int compareTo(Student o) {
+        return mark - o.mark;
+//        if (mark > o.mark) {
+//            return 4545;
+//        }
+//        if (mark < o.mark) {
+//            return -454;
+//        }
+//        return 0;
+    }
 }
