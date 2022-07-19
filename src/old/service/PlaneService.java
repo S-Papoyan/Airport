@@ -1,5 +1,5 @@
-package service;
-import model.Plane;
+package old.service;
+import old.model.Plane;
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class PlaneService {
 
     public Plane create() {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter model: ");
+        System.out.println("Enter old.newProject.model: ");
         String model = scanner.next();
         System.out.println("Enter country: ");
         String country = scanner.next();

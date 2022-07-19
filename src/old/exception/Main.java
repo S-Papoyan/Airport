@@ -1,4 +1,4 @@
-package exception;
+package old.exception;
 
 public class Main {
     public static void main(String[] args) {

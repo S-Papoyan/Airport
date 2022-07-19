@@ -1,4 +1,4 @@
-package model;
+package old.model;
 public class Plane {
 
     private String model;

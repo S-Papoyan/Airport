@@ -1,5 +1,7 @@
-import model.Plane;
-import service.PlaneService;
+package old;
+
+import old.model.Plane;
+import old.service.PlaneService;
 
 public class AirportTest {
     public static void main(String[] args) {
